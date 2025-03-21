@@ -1,0 +1,30 @@
+{
+  "name": "4--type-orm-code",
+  "version": "1.0.0",
+  "description": "1- npm init --y\r 2- tsc --init\r 3- npm i express @types/express nodemon ts-node @types/node typescript\r 4- npm i mysql2 typeorm reflect-metadata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.ts",
+    "typeorm": "typeorm",
+    "migration:generate": "typeorm migration:generate -n",
+    "migration:create": "typeorm migration:create -n"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.11",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "typeorm": "^0.3.21"
+  }
+}

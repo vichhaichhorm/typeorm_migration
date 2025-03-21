@@ -1,0 +1,21 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "2003",
+    "database": "typeorm_code_db",
+    "synchronize": true,
+    "logging": false,
+    "migrationsTableName": "migration_table",
+    "entities": [
+        "entity/*.ts"
+    ],
+    "migrations": [
+        "migration/*.ts"
+    ],
+    "cli": {
+        "entitiesDir": "entity",
+        "migrationsDir": "migration"
+    }
+}
